@@ -1,0 +1,59 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"  (click)="toggleNavbar()"><i class="fa fa-bars" aria-hidden="true"></i>
+
+        <div *ngIf="navbarOpen" id="mySidenav" class="sidenav" [ngClass]="{'show':navbarOpen}">
+            <a href="#" style="color: #ffff !important;" (click)="toggleNavbar()">IMPEKABLE</a>
+            <a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+            <a href="#"><i class="fa fa-bandcamp" aria-hidden="true"></i>Dashboard</a>
+            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Inbox <h6 class="float-right"><span class="badge badge-secondary bdg">New</span></h6>
+            </a>
+            <a href="#"><i class="fa fa-product-hunt" aria-hidden="true"></i>Products</a>
+          </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Search transactions ,invoices or help   <span class="sr-only">(current)</span></a>
+        </li>
+      
+       
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+      
+        
+    <!-- Dropdown -->
+    <div class="row">
+        <div class="col-sm-1 p-t">
+            <i class="fa fa-bell-o bell border-right" aria-hidden="true" ></i> 
+        </div>
+
+        <div class="col-sm-3">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      John Doe
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+                  <img src="assets/images/profile.png" style="width: 34px;" class="rounded-circle">
+
+                  </ul>
+        </div>
+        
+        
+    </div>
+   
+    
+      </form>
+    </div>
+  </nav>

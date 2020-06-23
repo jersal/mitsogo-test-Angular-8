@@ -1,0 +1,208 @@
+<div class="component-bg">
+  <div class="row nowrap">
+    <div class="col-lg-10 col-md-6 col-sm-12">
+      <h1>Overview</h1>
+    </div>
+    <div class="col-lg-1 col-md-6 col-sm-12 mrg">
+      <button type="button" class="btn btn-primary ">Add Funds <i class="fa fa-plus icn" aria-hidden="true"></i>
+      </button>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 card h">
+      <div class="row">
+        <div class="col-sm-7 p-a">
+          <h1 class="sub">Statistics</h1>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-3 p-a">
+          <select name="status" id="selection-criteria" class="form-control">
+            <option selected value="">Last 6 Months</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div id="chart">
+          <apx-chart [series]="chartOptions.series" [chart]="chartOptions.chart" [xaxis]="chartOptions.xaxis"
+            [stroke]="chartOptions.stroke" [tooltip]="chartOptions.tooltip" [dataLabels]="chartOptions.dataLabels">
+          </apx-chart>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 card h">
+      <div class="col-sm-10 p-a">
+        <h1 class="sub">Sales Distribution</h1>
+        <div class="row">
+
+          <div id="chart1">
+            <apx-chart [series]="chartOptions1.series" [chart]="chartOptions1.chart" [xaxis]="chartOptions1.xaxis"
+              [stroke]="chartOptions1.stroke" [tooltip]="chartOptions1.tooltip" [dataLabels]="chartOptions1.dataLabels">
+            </apx-chart>
+            <hr>
+          </div>
+
+        </div>
+        <div class="row ">
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <p class="ptag"></p><span class="country nowrap">France <span class="view">4260 Sale</span> </span>
+          </div>
+          <div  class="col-lg-6 col-md-6 col-sm-6 ">
+            <p class="ptag1"></p><span class="country1 nowrap">France <span class="view">4260 Sale</span> </span>
+          </div>
+        </div>
+
+        <div class="row ">
+          <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <p class="ptag2"></p><span class="country nowrap">Italy <span class="view">3970 Sale</span> </span>
+          </div>
+          <div  class="col-lg-6 col-md-6 col-sm-6 " >
+            <p class="ptag3"></p><span class="country1 nowrap">Italy <span class="view">3970 Sale</span> </span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12  card h-double">
+      <div class="text-center mrg-img">
+        <i class="fa fa-pencil img-icn"></i>
+        <img src="assets/images/img.jpg" class="rounded-circle">
+        <h6 class="p-t">Nick Herasimeka</h6>
+        <span class="view"> United States</span>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-3">
+          <i class="fa fa-instagram view m-l-s" aria-hidden="true"></i>
+        </div>
+        <div  class="col-lg-3 col-md-3 col-sm-3">
+          <i class="fa fa-facebook view" aria-hidden="true"></i>
+        </div>
+        <div  class="col-lg-3 col-md-3 col-sm-3">
+          <i class="fa fa-twitter view" aria-hidden="true"></i>
+        </div>
+        <div  class="col-lg-3 col-md-3 col-sm-3">
+          <i class="fa fa-envelope-o view m-l-s" aria-hidden="true"></i>
+        </div>
+        <hr class="min">
+      </div>
+      <div class="row">
+        <div class="col-lg-9 col-md-6 col-sm-9 p-t">
+          <h1 class="view">Our User</h1>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-3 p-t">
+          <i class="fa fa-circle view dot" aria-hidden="true"></i>
+          <i class="fa fa-circle view dot" aria-hidden="true"></i>
+          <i class="fa fa-circle view dot" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div>
+        <div class="row p-t-m">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <img src="assets/images/2.png" class="rounded-circle img-list ">
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <h6 class="p-t-m">Drew James</h6>
+            <span class="view nowrap"> United States Mobile:871.567.487</span>
+          </div>
+        </div>
+        <div class="row p-t-m">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <img src="assets/images/1.png" class="rounded-circle img-list ">
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <h6 class="p-t-m">Bavid Kames</h6>
+            <span class="view nowrap"> United States Mobile:871.567.487</span>
+          </div>
+        </div>
+        <div class="row p-t-m">
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <img src="assets/images/profile.png" class="rounded-circle img-list ">
+          </div>
+          <div class="col-lg-8 col-md-12 col-sm-12">
+            <h6 class="p-t-m">BAvid Kames</h6>
+            <span class="view nowrap"> United States Mobile:871.567.477</span>
+          </div>
+        </div>
+      </div>
+      </div>
+    
+
+    <div class="row table-div   ">
+        <div class="col-lg-12 col-md-6 col-sm-12 card">
+          <div class="row  ">
+            <div class="col-lg-12 col-md-6 col-sm-12 p-a">
+              <h1 class="sub">Referrer</h1>
+            </div>           
+          </div>
+          <div class="container bg">
+             
+            <table class="table responsive">
+              <thead>
+                <tr>
+                  <th>Location</th>
+                  <th>VIEWS</th>
+                  <th>SALES</th>
+                  <th>CONVERSATION</th>
+                  <th>TOTAL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr  *ngFor="let item of element " >
+                 <td>{{item.location}}</td>
+                 <td>{{item.views}}</td>
+                 <td>{{item.sale}}</td>
+                 <td>{{item.percent | percent}}</td>
+                 <td>{{item.total  | currency}}</td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+    
+    
+    
+        </div>
+        </div>
+
+        <div class="row video-div">
+            <div class="col-lg-12 col-md-6 col-sm-12 card">
+            <div class="row ">
+                <div class="col-lg-9 col-md-8 col-sm-9 p-t">
+                  <h1 class="view">Product Video</h1>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 p-t">
+                  <i class="fa fa-circle view dot" aria-hidden="true"></i>
+                  <i class="fa fa-circle view dot" aria-hidden="true"></i>
+                  <i class="fa fa-circle view dot" aria-hidden="true" ></i>
+                </div>
+              </div>
+              <div class="row ">
+                  <div class="col-lg-9 col-md-8 col-sm-9" >
+                <iframe  src="https://www.youtube.com/embed/Oy6hk6Y7VHQ" frameborder="0" 
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>            
+                <!-- <video width="280" height="200" controls>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Oy6hk6Y7VHQ" frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                  
+                  </video> -->
+              </div>
+              </div>
+
+            </div>
+
+    </div>
+
+   
+    
+      
+        

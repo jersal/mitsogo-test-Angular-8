@@ -1,0 +1,305 @@
+#chart {
+    max-width: 250px; 
+    margin: 0 auto;
+  }
+  
+  #chart1 {
+    max-width: 250px; 
+    margin: 0 auto;
+  }
+  
+.component-bg{
+    margin: 25px;
+}
+.bg{
+  background-color: #ffff
+  ;
+}
+h1{
+    font-size: 1.5rem;    
+}
+.nowrap{
+    white-space: nowrap;
+}
+.icn{
+    padding-left: 10px;
+}
+.p-t{
+    padding-top: 7px;
+}
+.bdg{
+  border-radius: 9px;
+    background-color: #ff6a00;
+}
+.p-a{
+  padding: 20px;
+}
+
+.mrg{
+  margin: 15px;
+  padding-left: 20px;
+}
+.m-btn{
+    margin-left: 153px;
+    margin-bottom: 20px;
+}
+.card{
+ background-color: #fff;border-radius: 1pc;padding: 8px;margin: 10px;
+}
+.sub{
+    font-weight: 100;
+    padding: 10px;
+}
+.h{
+    height: 500px;
+}
+.h-double{
+    height: 700px;
+}
+.border-show{
+  border: 10px solid #1566b8!important;
+  border-radius: 4px;
+}
+
+.ptag {
+  border-radius: 173px;
+  border: 2px solid rgb(85, 216, 254);
+  padding: 7px;
+  width: 21px;
+  height: 6px; 
+  padding-right: 7px;
+}
+.ptag1 {
+  border-radius: 173px;
+  border: 2px solid rgb(255, 218, 131);;
+  padding: 7px;
+  width: 21px;
+  height: 6px; 
+  padding-right: 7px;
+  margin-left: 20px;
+}
+.ptag2 {
+  border-radius: 173px;
+  border: 2px solid rgba(255, 129, 115, 1);
+  padding: 7px;
+  width: 21px;
+  height: 6px; 
+  padding-right: 7px;
+}
+.ptag3 {
+  border-radius: 173px;
+  border: 2px solid rgb(163, 160, 251);
+  padding: 7px;
+  width: 21px;
+  height: 6px; 
+  padding-right: 7px;
+  margin-left: 20px;
+}
+hr{
+  width: 132%;
+}
+.country{
+  padding-left: 32px;
+  position: absolute;
+  margin-top: -36px;
+}
+.country1{
+  padding-left: 32px;
+  position: absolute;
+  margin-top: -36px;
+  margin-left: 21px;
+}
+.view{
+  color: darkgray;
+}
+.mrg-img{
+  width: 350;
+  height: 225;
+  margin: 40px;
+}
+.min{
+  width: 92%;
+}
+.m-l-s{
+  margin-left: 5px;
+}
+.img-icn{
+  position: absolute;
+    color: #fff;
+    background: #ff6a00;
+    border-radius: 7px;
+    font-size: 18px;
+    margin-left: 92px;
+    margin-top: 20px;
+}
+.dot{
+  font-size: 9px;
+  padding: 3px;
+}
+
+.img-list{
+  width: 68px;
+}
+.p-t-m{
+  padding-top: 20px;
+}
+.table-div{
+  width: 69%;
+  margin-top: -15%;
+  margin-left: 0%;
+  height: 260px;
+}
+
+thead tr{
+  background-color: rgb(245, 246, 250);
+}
+th{
+  color:darkgray
+}
+
+
+@media(max-width:696px){
+  .col-md-8{
+    max-width: 50.666667%;
+  }
+  .h-double{
+    height: 850px;
+  }
+  .table-div{
+   width:100%;
+   margin-top:20px;
+  }
+
+  .video-div{
+    width:100%;
+    margin-top:155px;
+    margin-left: 9px;
+  }
+  .m-l-s{
+    margin-left:25px;
+    
+    }
+}
+
+
+@media(max-width:696px){
+  .col-md-8{
+    max-width: 50.666667%;
+  }
+  .h-double{
+    height: 850px;
+  }
+  .table-div{
+   width:100%;
+   margin-top:20px;
+  }
+
+  .video-div{
+    width:100%;
+    margin-top:155px;
+    margin-left: 9px;
+  }
+  .m-l-s{
+    margin-left:25px;
+    
+    }
+}
+
+@media(max-width:768px){ 
+ 
+  .table-div{
+   width:100%;
+   margin-top:20px;  
+  }
+
+ 
+  .video-div{
+    width:100%;
+    margin-top:180px;
+    margin-left: 9px;
+  }
+  .m-l-s{
+    margin-left:25px;
+    
+    }
+}
+
+/*table respo*/
+.responsive {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive td,
+.responsive th {
+  text-align: center;
+}
+@media (max-width:826px) {
+  .responsive {
+    display: block;
+    overflow-x: scroll;
+  }
+  .table-div{
+    width:100%;
+    margin-top:20px;
+  }
+  .video-div{
+    width:100%;
+    margin-top:180px;
+    margin-left: 9px;
+  }
+  .m-l-s{
+    margin-left:25px;
+    
+    }
+
+}
+
+@media (max-width:918px) {
+  .responsive {
+    display: block;
+    overflow-x: scroll;
+  }
+  .table-div{
+    width:100%;
+    margin-top:20px;
+  }
+  .video-div{
+    width:100%;
+    margin-top:180px;
+    margin-left: 9px;
+  }
+  .m-l-s{
+    margin-left:25px;
+    
+    }
+
+}
+
+@media (max-width:768px) {
+  .responsive {
+    display: block;
+    overflow-x: scroll;
+  }
+
+}
+
+@media (max-width:500px,max-width:826px) {
+  .responsive {
+    display: block;
+    overflow-x: scroll;
+  }
+
+}
+
+@media (max-width:768px) {
+  .responsive {
+    display: block;
+    overflow-x: scroll;
+  }
+
+}
+.video-div{
+  margin-left: 25px;
+  width: 25%;
+}
